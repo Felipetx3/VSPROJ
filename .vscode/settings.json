@@ -1,0 +1,9 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.tree.indent": 15,
+  "editor.bracketPairColorization.enabled": true,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "cSpell.words": ["Encanadores", "Estilo", "problemas", "Resolvendo", "seus"]
+}

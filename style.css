@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.mario-bros {
+  width: 300px;
+}
+
+.luigi-bros {
+  height: 600px;
+}
+.caixa-princ {
+  width: 40%;
+}
+
+video {
+  position: fixed;
+  top: 0;
+  min-height: 100%;
+  min-width: 100%;
+}
+.video-mario {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  width: 100%; /* largura */
+  height: 100%; /* altura */
+}
+
+.mascara-video {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: linear-gradient(
+    109deg,
+    rgba(10, 12, 16, 0.99) 15%,
+    rgba(10, 12, 16, 0.7) 50%,
+    rgba(10, 12, 16, 0.99) 85%
+  );
+}
+
+p {
+  color: white;
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+button {
+  height: 40px;
+  width: 200px;
+  background-color: #db122d;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.formulario {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  border-radius: 15px;
+  gap: 25px;
+  position: fixed;
+  left: -325px;
+  transition: left 1s linear;
+  z-index: 4;
+}
+
+input {
+  height: 40px;
+  border-radius: 5px;
+  border: 2px, solid, gray;
+  padding-left: 10px;
+  outline-color: chartreuse;
+}
+textarea {
+  height: 95px;
+  width: 300px;
+  border-radius: 5px;
+  border: 2px, solid, gray;
+  padding: 10px;
+  outline-color: chartreuse;
+}
+
+.mascara-for {
+  visibility: hidden;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+
+  background: linear-gradient(
+    109deg,
+    rgba(10, 12, 16, 0.99) 15%,
+    rgba(10, 12, 16, 0.7) 50%,
+    rgba(10, 12, 16, 0.99) 85%
+  );
+}
